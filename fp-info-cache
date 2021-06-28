@@ -1,4 +1,4 @@
-19080928548729994
+19084173549543334
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -76292,6 +76292,13 @@ rotary encoder
 0
 5
 4
+SAMTEC_FTSH-105-XX-X-DV
+SAMTEC_FTSH-105-XX-X-DV
+translated Allegro footprint
+
+0
+10
+10
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
@@ -76761,6 +76768,13 @@ https://www.farnell.com/cad/316865.pdf?_ga=2.37208032.177107060.1530611323-24901
 0
 48
 48
+SolderJumper
+SolderJumper-2_P1.3mm_Open_Pad1.0x0.74mm
+SMD Solder Jumper, 1x0.74mm Pads, 0.3mm gap, open
+solder jumper open
+0
+2
+2
 Symbol
 CE-Logo_8.5x6mm_SilkScreen
 CE marking

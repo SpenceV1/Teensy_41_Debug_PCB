@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name FTSH-105-XX-X-DV)(type Legacy)(uri ${KIPRJMOD}/SAMTEC_FTSH-105-XX-X-DV/FTSH-105-XX-X-DV.lib)(options "")(descr ""))
+)

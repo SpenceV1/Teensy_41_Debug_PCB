@@ -14,25 +14,14 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_NXP_Kinetis:MKL02Z32VFG4 U?
+L MCU_NXP_Kinetis:MKL02Z32VFG4 U2
 U 1 1 5FF2C098
 P 2750 5800
-F 0 "U?" H 2750 7381 50  0000 C CNN
+F 0 "U2" H 2750 7381 50  0000 C CNN
 F 1 "MKL02Z32VFG4" H 2750 7290 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.9x1.9mm" H 2900 4575 50  0001 L TNN
 F 3 "http://www.nxp.com/docs/en/data-sheet/KL02P32M48SF0.pdf" H 3050 5000 50  0001 L BNN
 	1    2750 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x07_Odd_Even J?
-U 1 1 5FF34813
-P 9300 4300
-F 0 "J?" H 9350 4817 50  0000 C CNN
-F 1 "Conn_02x07_Odd_Even" H 9350 4726 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical" H 9300 4300 50  0001 C CNN
-F 3 "~" H 9300 4300 50  0001 C CNN
-	1    9300 4300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -121,48 +110,10 @@ Wire Wire Line
 Wire Wire Line
 	2750 4400 5100 4400
 Wire Wire Line
-	5100 4400 5100 4600
+	2750 1300 5100 1300
 Wire Wire Line
-	5100 4600 9100 4600
-Wire Wire Line
-	2750 1300 10950 1300
-Wire Wire Line
-	10950 1300 10950 4600
-Wire Wire Line
-	10950 4600 9600 4600
-Wire Wire Line
-	9600 4600 9600 4750
-Wire Wire Line
-	9600 4750 9100 4750
-Wire Wire Line
-	9100 4750 9100 4600
-Connection ~ 9600 4600
-Connection ~ 9100 4600
-Wire Wire Line
-	9100 4500 9000 4500
-Wire Wire Line
-	9000 4500 9000 4850
-Wire Wire Line
-	9000 4850 10600 4850
-Wire Wire Line
-	10600 4850 10600 4500
-Wire Wire Line
-	10600 4500 9600 4500
-Wire Wire Line
-	9000 4850 5100 4850
-Wire Wire Line
-	5100 4850 5100 7200
-Wire Wire Line
-	5100 7200 2750 7200
-Connection ~ 9000 4850
+	4750 7200 2750 7200
 Connection ~ 2750 7200
-Wire Wire Line
-	2750 4100 5300 4100
-Wire Wire Line
-	5300 4100 5300 4500
-Wire Wire Line
-	5300 4500 9000 4500
-Connection ~ 9000 4500
 Wire Wire Line
 	1450 2800 850  2800
 Wire Wire Line
@@ -170,9 +121,7 @@ Wire Wire Line
 Wire Wire Line
 	850  1150 10700 1150
 Wire Wire Line
-	10700 1150 10700 4300
-Wire Wire Line
-	10700 4300 9600 4300
+	10700 1150 10700 3500
 Wire Wire Line
 	850  4300 850  5900
 Wire Wire Line
@@ -184,9 +133,9 @@ Wire Wire Line
 Wire Wire Line
 	800  1100 11050 1100
 Wire Wire Line
-	11050 1100 11050 4200
+	11050 1100 11050 3200
 Wire Wire Line
-	11050 4200 9600 4200
+	11050 3200 10400 3200
 Wire Wire Line
 	1450 5700 800  5700
 Wire Wire Line
@@ -194,27 +143,23 @@ Wire Wire Line
 Wire Wire Line
 	4050 2100 10600 2100
 Wire Wire Line
-	10600 2100 10600 4100
+	10600 2100 10600 3300
 Wire Wire Line
-	10600 4100 9600 4100
-Wire Wire Line
-	9100 4100 5750 4100
+	6950 4100 5750 4100
 Wire Wire Line
 	5750 5200 4050 5200
 Wire Wire Line
 	5750 4100 5750 5200
 Wire Wire Line
-	800  4200 9100 4200
+	800  4200 6800 4200
 Wire Wire Line
 	4050 2600 10500 2600
 Wire Wire Line
-	10500 2600 10500 4400
+	10500 2600 10500 5150
 Wire Wire Line
-	10500 4400 9600 4400
+	10500 5150 9600 5150
 Wire Wire Line
-	9100 4400 5950 4400
-Wire Wire Line
-	5950 4400 5950 5700
+	5950 5150 5950 5700
 Wire Wire Line
 	5950 5700 4050 5700
 Wire Wire Line
@@ -224,9 +169,9 @@ Wire Wire Line
 Wire Wire Line
 	1350 900  10850 900 
 Wire Wire Line
-	10850 900  10850 4000
+	10850 900  10850 3400
 Wire Wire Line
-	10850 4000 9600 4000
+	10850 3400 10200 3400
 Wire Wire Line
 	1450 5800 1250 5800
 Wire Wire Line
@@ -234,38 +179,28 @@ Wire Wire Line
 Wire Wire Line
 	1250 7450 6150 7450
 Wire Wire Line
-	6150 7450 6150 4000
+	6150 7450 6150 3950
 Wire Wire Line
-	6150 4000 9100 4000
-Wire Wire Line
-	850  4300 9100 4300
-Text Notes 8400 4650 0    50   ~ 0
+	850  4300 6650 4300
+Text Notes 8400 3250 0    50   ~ 0
 VTref
-Text Notes 8400 4550 0    50   ~ 0
-GND
-Text Notes 8400 4350 0    50   ~ 0
+Text Notes 8400 4900 0    50   ~ 0
 TDI
-Text Notes 8400 4250 0    50   ~ 0
+Text Notes 8400 4600 0    50   ~ 0
 TMS
-Text Notes 8400 4150 0    50   ~ 0
+Text Notes 8400 4300 0    50   ~ 0
 TCK
-Text Notes 8400 4450 0    50   ~ 0
+Text Notes 8400 5200 0    50   ~ 0
 MOD
-Text Notes 8400 4050 0    50   ~ 0
+Text Notes 8400 4000 0    50   ~ 0
 TDO
-Text Notes 10050 4650 0    50   ~ 0
-VTref
-Text Notes 10050 4550 0    50   ~ 0
-GND
-Text Notes 10050 4350 0    50   ~ 0
+Text Notes 9950 3550 0    50   ~ 0
 TDI
-Text Notes 10050 4250 0    50   ~ 0
+Text Notes 9950 3250 0    50   ~ 0
 TMS
-Text Notes 10050 4150 0    50   ~ 0
+Text Notes 9950 3350 0    50   ~ 0
 TCK
-Text Notes 10050 4450 0    50   ~ 0
-MOD
-Text Notes 10050 4050 0    50   ~ 0
+Text Notes 9950 3450 0    50   ~ 0
 TDO
 Text Notes 2850 5650 2    50   ~ 0
 AD_B0_04 (SRC.BOOT.MODE[0])
@@ -295,4 +230,168 @@ Text Notes 3450 5650 2    50   ~ 0
 GPIO2.IO[13]
 Text Notes 3650 5750 2    50   ~ 0
 (MOD) AD_B0_08
+Text Notes 10050 5200 0    50   ~ 0
+MOD
+Wire Wire Line
+	2650 4100 2750 4100
+Connection ~ 2750 4100
+Text Notes 8400 3350 0    50   ~ 0
+GND
+Wire Wire Line
+	2750 4100 4750 4100
+Wire Wire Line
+	4750 4100 4750 7200
+Connection ~ 4750 4100
+Wire Wire Line
+	4750 3300 4750 4100
+Wire Wire Line
+	8750 3400 8850 3400
+Wire Wire Line
+	5100 4400 5100 3200
+Wire Wire Line
+	5100 3200 8850 3200
+Wire Wire Line
+	5100 3200 5100 1300
+Connection ~ 5100 3200
+Wire Wire Line
+	10400 4550 10400 3200
+Connection ~ 10400 3200
+Wire Wire Line
+	10400 3200 9850 3200
+Wire Wire Line
+	10600 3300 10300 3300
+Wire Wire Line
+	10700 3500 10100 3500
+Wire Wire Line
+	10300 4250 10300 3300
+Connection ~ 10300 3300
+Wire Wire Line
+	10300 3300 9850 3300
+Wire Wire Line
+	10200 3950 10200 3400
+Connection ~ 10200 3400
+Wire Wire Line
+	10200 3400 9850 3400
+Wire Wire Line
+	10100 4850 10100 3500
+Connection ~ 10100 3500
+Wire Wire Line
+	10100 3500 9850 3500
+Wire Wire Line
+	8750 3400 8750 5350
+Wire Wire Line
+	8750 5350 9600 5350
+Wire Wire Line
+	9600 5350 9600 5150
+$Comp
+L FTSH-105-XX-X-DV:FTSH-105-XX-X-DV J1
+U 1 1 60B58083
+P 9350 3400
+F 0 "J1" H 9350 3867 50  0000 C CNN
+F 1 "FTSH-105-XX-X-DV" H 9350 3776 50  0000 C CNN
+F 2 "SAMTEC_FTSH-105-XX-X-DV" H 9350 3400 50  0001 L BNN
+F 3 "" H 9350 3400 50  0001 L BNN
+F 4 "H" H 9350 3400 50  0001 L BNN "PARTREV"
+F 5 "Samtec" H 9350 3400 50  0001 L BNN "MANUFACTURER"
+F 6 "Manufacturer Recommendation" H 9350 3400 50  0001 L BNN "STANDARD"
+	1    9350 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 3300 8850 3300
+$Comp
+L Connector:TestPoint TP1
+U 1 1 60BB67C2
+P 10650 3600
+F 0 "TP1" V 10604 3788 50  0000 L CNN
+F 1 "TestPoint" V 10695 3788 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 10850 3600 50  0001 C CNN
+F 3 "~" H 10850 3600 50  0001 C CNN
+	1    10650 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9850 3600 10650 3600
+$Comp
+L Jumper:SolderJumper_2_Open JP4
+U 1 1 60BBBD93
+P 9350 4850
+F 0 "JP4" H 9350 5055 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 9350 4964 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 9350 4850 50  0001 C CNN
+F 3 "~" H 9350 4850 50  0001 C CNN
+	1    9350 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP3
+U 1 1 60BCAB53
+P 9350 4550
+F 0 "JP3" H 9350 4755 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 9350 4664 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 9350 4550 50  0001 C CNN
+F 3 "~" H 9350 4550 50  0001 C CNN
+	1    9350 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP2
+U 1 1 60BCB2B3
+P 9350 4250
+F 0 "JP2" H 9350 4455 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 9350 4364 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 9350 4250 50  0001 C CNN
+F 3 "~" H 9350 4250 50  0001 C CNN
+	1    9350 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP1
+U 1 1 60BCB988
+P 9350 3950
+F 0 "JP1" H 9350 4155 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 9350 4064 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 9350 3950 50  0001 C CNN
+F 3 "~" H 9350 3950 50  0001 C CNN
+	1    9350 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP5
+U 1 1 60BCE665
+P 9350 5150
+F 0 "JP5" H 9350 5355 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 9350 5264 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 9350 5150 50  0001 C CNN
+F 3 "~" H 9350 5150 50  0001 C CNN
+	1    9350 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 5150 9200 5150
+Wire Wire Line
+	9500 5150 9600 5150
+Connection ~ 9600 5150
+Wire Wire Line
+	6650 4300 6650 4850
+Wire Wire Line
+	6650 4850 9200 4850
+Wire Wire Line
+	9500 4850 10100 4850
+Wire Wire Line
+	9500 4550 10400 4550
+Wire Wire Line
+	6800 4200 6800 4550
+Wire Wire Line
+	6800 4550 9200 4550
+Wire Wire Line
+	6950 4100 6950 4250
+Wire Wire Line
+	6950 4250 9200 4250
+Wire Wire Line
+	9500 4250 10300 4250
+Wire Wire Line
+	6150 3950 9200 3950
+Wire Wire Line
+	9500 3950 10200 3950
 $EndSCHEMATC
