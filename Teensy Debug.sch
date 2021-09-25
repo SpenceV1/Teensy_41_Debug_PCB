@@ -14,371 +14,200 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_NXP_Kinetis:MKL02Z32VFG4 U2
-U 1 1 5FF2C098
-P 2750 5800
-F 0 "U2" H 2750 7381 50  0000 C CNN
-F 1 "MKL02Z32VFG4" H 2750 7290 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.9x1.9mm" H 2900 4575 50  0001 L TNN
-F 3 "http://www.nxp.com/docs/en/data-sheet/KL02P32M48SF0.pdf" H 3050 5000 50  0001 L BNN
-	1    2750 5800
-	1    0    0    -1  
-$EndComp
-$Comp
 L MCU_NXP_Kinetis:MKL02Z32VFG4 U1
 U 1 1 5FEF7CA2
-P 2750 2700
-F 0 "U1" H 2750 4281 50  0000 C CNN
-F 1 "MKL02Z32VFG4" H 2750 4190 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.9x1.9mm" H 2900 1475 50  0001 L TNN
-F 3 "http://www.nxp.com/docs/en/data-sheet/KL02P32M48SF0.pdf" H 3050 1900 50  0001 L BNN
-	1    2750 2700
+P 4450 4050
+F 0 "U1" H 4450 5631 50  0000 C CNN
+F 1 "MKL02Z32VFG4" H 4450 5540 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.9x1.9mm" H 4600 2825 50  0001 L TNN
+F 3 "http://www.nxp.com/docs/en/data-sheet/KL02P32M48SF0.pdf" H 4750 3250 50  0001 L BNN
+	1    4450 4050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2650 7200 2750 7200
-Text Notes 2850 2550 2    50   ~ 0
+Text Notes 4550 3900 2    50   ~ 0
 AD_B0_04 (SRC.BOOT.MODE[0])
-Text Notes 2300 2650 2    50   ~ 0
+Text Notes 4000 4000 2    50   ~ 0
 AD_B0_06 (TMS)
-Text Notes 2300 2750 2    50   ~ 0
+Text Notes 4000 4100 2    50   ~ 0
 AD_B0_10 (TDO)
-Text Notes 2250 2150 2    50   ~ 0
+Text Notes 3950 3500 2    50   ~ 0
 NC
-Text Notes 2000 2350 2    50   ~ 0
+Text Notes 3700 3700 2    50   ~ 0
 NC
-Text Notes 2550 2250 2    50   ~ 0
+Text Notes 4250 3600 2    50   ~ 0
 EMC_01 (GPIO4.IO[1])
-Text Notes 2100 2450 2    50   ~ 0
+Text Notes 3800 3800 2    50   ~ 0
 DCDC
-Text Notes 2350 2850 2    50   ~ 0
+Text Notes 4050 4200 2    50   ~ 0
 AD_B0_09 (TDI)
-Text Notes 3750 2150 2    50   ~ 0
+Text Notes 5450 3500 2    50   ~ 0
 (TCK) AD_B0_07
-Text Notes 3350 2250 2    50   ~ 0
+Text Notes 5050 3600 2    50   ~ 0
 POR_B
-Text Notes 3350 2350 2    50   ~ 0
+Text Notes 5050 3700 2    50   ~ 0
 PROG
-Text Notes 3300 2450 2    50   ~ 0
+Text Notes 5000 3800 2    50   ~ 0
 LED
-Text Notes 3450 2550 2    50   ~ 0
+Text Notes 5150 3900 2    50   ~ 0
 GPIO2.IO[13]
-Text Notes 3650 2650 2    50   ~ 0
+Text Notes 5350 4000 2    50   ~ 0
 (MOD) AD_B0_08
 Wire Wire Line
-	4050 2200 4250 2200
+	4450 2250 6400 2250
 Wire Wire Line
-	4250 2200 4250 5300
+	3150 4150 2100 4150
 Wire Wire Line
-	4250 5300 4050 5300
+	2100 4150 2100 1650
 Wire Wire Line
-	4050 2300 4350 2300
+	2100 1650 9400 1650
 Wire Wire Line
-	4350 2300 4350 5400
+	9400 1650 9400 4850
 Wire Wire Line
-	4350 5400 4050 5400
+	3150 3950 2400 3950
 Wire Wire Line
-	4050 2400 4450 2400
+	2400 3950 2400 1950
 Wire Wire Line
-	4450 2400 4450 5500
+	2400 1950 9100 1950
 Wire Wire Line
-	4450 5500 4050 5500
+	9100 1950 9100 4550
 Wire Wire Line
-	4050 2500 4550 2500
+	5750 3450 8850 3450
 Wire Wire Line
-	4550 2500 4550 5600
+	8850 3450 8850 4650
 Wire Wire Line
-	4550 5600 4050 5600
-Wire Wire Line
-	1450 2500 1200 2500
-Wire Wire Line
-	1200 2500 1200 5600
-Wire Wire Line
-	1200 5600 1450 5600
-Wire Wire Line
-	1450 2400 1100 2400
-Wire Wire Line
-	1100 2400 1100 5500
-Wire Wire Line
-	1100 5500 1450 5500
-Wire Wire Line
-	1450 2200 1000 2200
-Wire Wire Line
-	1000 2200 1000 5300
-Wire Wire Line
-	1000 5300 1450 5300
-Wire Wire Line
-	2750 4400 5100 4400
-Wire Wire Line
-	2750 1300 5100 1300
-Wire Wire Line
-	4750 7200 2750 7200
-Connection ~ 2750 7200
-Wire Wire Line
-	1450 2800 850  2800
-Wire Wire Line
-	850  2800 850  1150
-Wire Wire Line
-	850  1150 10700 1150
-Wire Wire Line
-	10700 1150 10700 3500
-Wire Wire Line
-	850  4300 850  5900
-Wire Wire Line
-	850  5900 1450 5900
-Wire Wire Line
-	1450 2600 800  2600
-Wire Wire Line
-	800  2600 800  1100
-Wire Wire Line
-	800  1100 11050 1100
-Wire Wire Line
-	11050 1100 11050 3200
-Wire Wire Line
-	11050 3200 10400 3200
-Wire Wire Line
-	1450 5700 800  5700
-Wire Wire Line
-	800  5700 800  4200
-Wire Wire Line
-	4050 2100 10600 2100
-Wire Wire Line
-	10600 2100 10600 3300
-Wire Wire Line
-	6950 4100 5750 4100
-Wire Wire Line
-	5750 5200 4050 5200
-Wire Wire Line
-	5750 4100 5750 5200
-Wire Wire Line
-	800  4200 6800 4200
-Wire Wire Line
-	4050 2600 10500 2600
-Wire Wire Line
-	10500 2600 10500 5150
-Wire Wire Line
-	10500 5150 9600 5150
-Wire Wire Line
-	5950 5150 5950 5700
-Wire Wire Line
-	5950 5700 4050 5700
-Wire Wire Line
-	1450 2700 1350 2700
-Wire Wire Line
-	1350 2700 1350 900 
-Wire Wire Line
-	1350 900  10850 900 
-Wire Wire Line
-	10850 900  10850 3400
-Wire Wire Line
-	10850 3400 10200 3400
-Wire Wire Line
-	1450 5800 1250 5800
-Wire Wire Line
-	1250 5800 1250 7450
-Wire Wire Line
-	1250 7450 6150 7450
-Wire Wire Line
-	6150 7450 6150 3950
-Wire Wire Line
-	850  4300 6650 4300
-Text Notes 8400 3250 0    50   ~ 0
+	3150 4050 2250 4050
+Text Notes 7350 4600 0    50   ~ 0
 VTref
-Text Notes 8400 4900 0    50   ~ 0
+Text Notes 8600 4900 0    50   ~ 0
 TDI
-Text Notes 8400 4600 0    50   ~ 0
+Text Notes 8600 4600 0    50   ~ 0
 TMS
-Text Notes 8400 4300 0    50   ~ 0
+Text Notes 8600 4700 0    50   ~ 0
 TCK
-Text Notes 8400 5200 0    50   ~ 0
-MOD
-Text Notes 8400 4000 0    50   ~ 0
+Text Notes 8600 4800 0    50   ~ 0
 TDO
-Text Notes 9950 3550 0    50   ~ 0
-TDI
-Text Notes 9950 3250 0    50   ~ 0
-TMS
-Text Notes 9950 3350 0    50   ~ 0
-TCK
-Text Notes 9950 3450 0    50   ~ 0
-TDO
-Text Notes 2850 5650 2    50   ~ 0
-AD_B0_04 (SRC.BOOT.MODE[0])
-Text Notes 2300 5750 2    50   ~ 0
-AD_B0_06 (TMS)
-Text Notes 2300 5850 2    50   ~ 0
-AD_B0_10 (TDO)
-Text Notes 2250 5250 2    50   ~ 0
-NC
-Text Notes 2000 5450 2    50   ~ 0
-NC
-Text Notes 2550 5350 2    50   ~ 0
-EMC_01 (GPIO4.IO[1])
-Text Notes 2100 5550 2    50   ~ 0
-DCDC
-Text Notes 2350 5950 2    50   ~ 0
-AD_B0_09 (TDI)
-Text Notes 3750 5250 2    50   ~ 0
-(TCK) AD_B0_07
-Text Notes 3350 5350 2    50   ~ 0
-POR_B
-Text Notes 3350 5450 2    50   ~ 0
-PROG
-Text Notes 3300 5550 2    50   ~ 0
-LED
-Text Notes 3450 5650 2    50   ~ 0
-GPIO2.IO[13]
-Text Notes 3650 5750 2    50   ~ 0
-(MOD) AD_B0_08
-Text Notes 10050 5200 0    50   ~ 0
-MOD
-Wire Wire Line
-	2650 4100 2750 4100
-Connection ~ 2750 4100
-Text Notes 8400 3350 0    50   ~ 0
+Text Notes 7350 4700 0    50   ~ 0
 GND
 Wire Wire Line
-	2750 4100 4750 4100
+	4450 5550 7100 5550
 Wire Wire Line
-	4750 4100 4750 7200
-Connection ~ 4750 4100
-Wire Wire Line
-	4750 3300 4750 4100
-Wire Wire Line
-	8750 3400 8850 3400
-Wire Wire Line
-	5100 4400 5100 3200
-Wire Wire Line
-	5100 3200 8850 3200
-Wire Wire Line
-	5100 3200 5100 1300
-Connection ~ 5100 3200
-Wire Wire Line
-	10400 4550 10400 3200
-Connection ~ 10400 3200
-Wire Wire Line
-	10400 3200 9850 3200
-Wire Wire Line
-	10600 3300 10300 3300
-Wire Wire Line
-	10700 3500 10100 3500
-Wire Wire Line
-	10300 4250 10300 3300
-Connection ~ 10300 3300
-Wire Wire Line
-	10300 3300 9850 3300
-Wire Wire Line
-	10200 3950 10200 3400
-Connection ~ 10200 3400
-Wire Wire Line
-	10200 3400 9850 3400
-Wire Wire Line
-	10100 4850 10100 3500
-Connection ~ 10100 3500
-Wire Wire Line
-	10100 3500 9850 3500
-Wire Wire Line
-	8750 3400 8750 5350
-Wire Wire Line
-	8750 5350 9600 5350
-Wire Wire Line
-	9600 5350 9600 5150
+	7100 4650 7100 5550
 $Comp
 L FTSH-105-XX-X-DV:FTSH-105-XX-X-DV J1
 U 1 1 60B58083
-P 9350 3400
-F 0 "J1" H 9350 3867 50  0000 C CNN
-F 1 "FTSH-105-XX-X-DV" H 9350 3776 50  0000 C CNN
-F 2 "SAMTEC_FTSH-105-XX-X-DV" H 9350 3400 50  0001 L BNN
-F 3 "" H 9350 3400 50  0001 L BNN
-F 4 "H" H 9350 3400 50  0001 L BNN "PARTREV"
-F 5 "Samtec" H 9350 3400 50  0001 L BNN "MANUFACTURER"
-F 6 "Manufacturer Recommendation" H 9350 3400 50  0001 L BNN "STANDARD"
-	1    9350 3400
+P 8050 4750
+F 0 "J1" H 8050 5217 50  0000 C CNN
+F 1 "FTSH-105-XX-X-DV" H 8050 5126 50  0000 C CNN
+F 2 "SAMTEC_FTSH-105-XX-X-DV" H 8050 4750 50  0001 L BNN
+F 3 "" H 8050 4750 50  0001 L BNN
+F 4 "H" H 8050 4750 50  0001 L BNN "PARTREV"
+F 5 "Samtec" H 8050 4750 50  0001 L BNN "MANUFACTURER"
+F 6 "Manufacturer Recommendation" H 8050 4750 50  0001 L BNN "STANDARD"
+	1    8050 4750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4750 3300 8850 3300
+	7100 4650 7550 4650
+Wire Wire Line
+	8550 4550 9100 4550
+Wire Wire Line
+	8550 4650 8850 4650
+Wire Wire Line
+	8550 4750 9250 4750
+Wire Wire Line
+	8550 4850 9400 4850
+Wire Wire Line
+	9250 1800 9250 4750
+Wire Wire Line
+	2250 4050 2250 1800
+Wire Wire Line
+	2250 1800 9250 1800
+Wire Wire Line
+	4450 5550 4450 5450
+Wire Wire Line
+	4350 5450 4350 5550
+Wire Wire Line
+	4350 5550 4450 5550
+Connection ~ 4450 5550
+Text Notes 7350 4800 0    50   ~ 0
+GND
+Text Notes 7350 4900 0    50   ~ 0
+---
+Text Notes 7350 5000 0    50   ~ 0
+NC
+Text Notes 8600 5000 0    50   ~ 0
+nRESET
 $Comp
-L Jumper:SolderJumper_2_Open JP4
-U 1 1 60BBBD93
-P 9350 4850
-F 0 "JP4" H 9350 5055 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 9350 4964 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 9350 4850 50  0001 C CNN
-F 3 "~" H 9350 4850 50  0001 C CNN
-	1    9350 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP3
-U 1 1 60BCAB53
-P 9350 4550
-F 0 "JP3" H 9350 4755 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 9350 4664 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 9350 4550 50  0001 C CNN
-F 3 "~" H 9350 4550 50  0001 C CNN
-	1    9350 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP2
-U 1 1 60BCB2B3
-P 9350 4250
-F 0 "JP2" H 9350 4455 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 9350 4364 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 9350 4250 50  0001 C CNN
-F 3 "~" H 9350 4250 50  0001 C CNN
-	1    9350 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP1
-U 1 1 60BCB988
-P 9350 3950
-F 0 "JP1" H 9350 4155 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 9350 4064 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 9350 3950 50  0001 C CNN
-F 3 "~" H 9350 3950 50  0001 C CNN
-	1    9350 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP5
-U 1 1 60BCE665
-P 9350 5150
-F 0 "JP5" H 9350 5355 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 9350 5264 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 9350 5150 50  0001 C CNN
-F 3 "~" H 9350 5150 50  0001 C CNN
-	1    9350 5150
+L MCU_Microchip_ATtiny:ATtiny10-TS U2
+U 1 1 6113C8A3
+P 5050 6500
+F 0 "U2" H 4520 6546 50  0000 R CNN
+F 1 "ATtiny10-TS" H 4520 6455 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 5050 6500 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8127-AVR-8-bit-Microcontroller-ATtiny4-ATtiny5-ATtiny9-ATtiny10_Datasheet.pdf" H 5050 6500 50  0001 C CNN
+	1    5050 6500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5950 5150 9200 5150
+	6400 2250 6400 4550
 Wire Wire Line
-	9500 5150 9600 5150
-Connection ~ 9600 5150
+	4450 2250 4450 2650
 Wire Wire Line
-	6650 4300 6650 4850
+	3150 3850 2550 3850
 Wire Wire Line
-	6650 4850 9200 4850
+	2550 3850 2550 2100
 Wire Wire Line
-	9500 4850 10100 4850
+	2550 2100 6100 2100
 Wire Wire Line
-	9500 4550 10400 4550
+	6100 2100 6100 3950
 Wire Wire Line
-	6800 4200 6800 4550
+	6100 3950 5750 3950
 Wire Wire Line
-	6800 4550 9200 4550
+	4350 5550 4350 7250
 Wire Wire Line
-	6950 4100 6950 4250
+	4350 7250 5050 7250
 Wire Wire Line
-	6950 4250 9200 4250
+	5050 7250 5050 7100
+Connection ~ 4350 5550
 Wire Wire Line
-	9500 4250 10300 4250
+	5050 5900 5050 5400
 Wire Wire Line
-	6150 3950 9200 3950
+	5050 5400 6400 5400
 Wire Wire Line
-	9500 3950 10200 3950
+	6400 5400 6400 4550
+Connection ~ 6400 4550
+Wire Wire Line
+	3150 3750 3000 3750
+Wire Wire Line
+	3000 3750 3000 5750
+Wire Wire Line
+	3000 5750 5800 5750
+Wire Wire Line
+	5800 5750 5800 6200
+Wire Wire Line
+	5800 6200 5650 6200
+Wire Wire Line
+	6100 3950 6100 6400
+Wire Wire Line
+	6100 6400 5650 6400
+Connection ~ 6100 3950
+Wire Wire Line
+	5750 3550 5950 3550
+Wire Wire Line
+	5950 3550 5950 6300
+Wire Wire Line
+	5950 6300 5650 6300
+Wire Wire Line
+	5750 3650 6250 3650
+Wire Wire Line
+	6250 3650 6250 3750
+Wire Wire Line
+	6250 6500 5650 6500
+Wire Wire Line
+	5750 3750 6250 3750
+Connection ~ 6250 3750
+Wire Wire Line
+	6250 3750 6250 6500
+Wire Wire Line
+	6400 4550 7550 4550
 $EndSCHEMATC
