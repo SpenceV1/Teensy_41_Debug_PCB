@@ -1,4 +1,6 @@
 (fp_lib_table
   (lib (name SAMTEC_FTSH-105-XX-X-DV)(type KiCad)(uri ${KIPRJMOD}/SAMTEC_FTSH-105-XX-X-DV)(options "")(descr ""))
   (lib (name SolderJumper)(type KiCad)(uri ${KIPRJMOD}/SolderJumper)(options "")(descr ""))
+  (lib (name teensy)(type KiCad)(uri ${KIPRJMOD}/teensy.pretty-master)(options "")(descr ""))
+  (lib (name Desktop)(type KiCad)(uri C:/Users/xspen/Desktop)(options "")(descr ""))
 )
