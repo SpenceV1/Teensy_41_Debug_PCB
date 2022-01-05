@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_NXP_Kinetis:MKL02Z32VFG4 U?
+L MCU_NXP_Kinetis:MKL02Z32VFG4 U2
 U 1 1 5FF2C098
 P 2750 5800
-F 0 "U?" H 2750 7381 50  0000 C CNN
+F 0 "U2" H 2750 7381 50  0000 C CNN
 F 1 "MKL02Z32VFG4" H 2750 7290 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.9x1.9mm" H 2900 4575 50  0001 L TNN
 F 3 "http://www.nxp.com/docs/en/data-sheet/KL02P32M48SF0.pdf" H 3050 5000 50  0001 L BNN
@@ -25,10 +25,10 @@ F 3 "http://www.nxp.com/docs/en/data-sheet/KL02P32M48SF0.pdf" H 3050 5000 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x07_Odd_Even J?
+L Connector_Generic:Conn_02x07_Odd_Even J1
 U 1 1 5FF34813
 P 9300 4300
-F 0 "J?" H 9350 4817 50  0000 C CNN
+F 0 "J1" H 9350 4817 50  0000 C CNN
 F 1 "Conn_02x07_Odd_Even" H 9350 4726 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical" H 9300 4300 50  0001 C CNN
 F 3 "~" H 9300 4300 50  0001 C CNN

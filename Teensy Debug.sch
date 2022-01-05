@@ -295,4 +295,8 @@ Text Notes 3450 5650 2    50   ~ 0
 GPIO2.IO[13]
 Text Notes 3650 5750 2    50   ~ 0
 (MOD) AD_B0_08
+Text Notes 2250 3300 0    197  ~ 0
+Teensy
+Text Notes 2200 6400 0    197  ~ 0
+MKL02
 $EndSCHEMATC
